@@ -1,17 +1,4 @@
-README for ROT13 Encoder/Decoder
-Repository Name Suggestions
-rot13-converter
 
-python-rot13
-
-rot13-encoder-decoder
-
-simple-rot13
-
-text-rotator
-
-README Content
-markdown
 # ROT13 Encoder/Decoder
 
 A simple Python program that implements the ROT13 cipher for encoding and decoding text.
