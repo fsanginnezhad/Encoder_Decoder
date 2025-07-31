@@ -1,43 +1,75 @@
+# 🔐 ROT13 Text Encoder/Decoder
 
-# ROT13 Encoder/Decoder
+A minimal yet effective **command-line tool** written in Python that uses the classic [ROT13 cipher](https://en.wikipedia.org/wiki/ROT13) to encode and decode messages. 🔁
 
-A simple Python program that implements the ROT13 cipher for encoding and decoding text.
+---
 
-## What is ROT13?
-ROT13 ("rotate by 13 places") is a simple letter substitution cipher that replaces a letter with the 13th letter after it in the alphabet. It's a special case of the Caesar cipher.
+## ✨ Features
 
-## Features
-- Encodes and decodes any text input
-- Case-sensitive (preserves uppercase and lowercase)
-- Simple interactive interface
-- Handles all alphabetic characters (A-Z, a-z)
-- Easy to exit the program
+- 🔤 Transforms input using the ROT13 substitution cipher
+- 🧠 Decodes automatically with the same command
+- 🔁 Runs in a loop for continuous encoding
+- ❓ Exit confirmation for accidental quits
+- 🧼 Clean and simple terminal interface
 
-## How to Use
-1. Run the Python script
-2. Enter the text you want to encode/decode
-3. The program will output the ROT13 converted text
-4. To exit, type any of these: q, e, exit, quit
-   - You'll be asked to confirm before exiting
+---
 
-## Requirements
-- Python 3.x
+## 🚀 Getting Started
 
-## Installation
-No installation required. Just run the script directly:
+### ✅ Requirements
+
+- Python 3.x  
+- No external libraries needed
+
+### ▶️ Run the Program
+
 ```bash
 python rot13.py
-Example
+💬 Sample Usage
 text
+Copy
+Edit
 Enter Your Text: Hello World
 Uryyb Jbeyq
-Enter Your Text: Uryyb Jbeyq
-Hello World
-Why ROT13?
-ROT13 is commonly used in online forums to hide spoilers, punchlines, and offensive material. It's also useful for simple obfuscation where no real security is needed.
 
-Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Enter Your Text: q
+Are You Sure to EXIT? no
+D
 
-License
-MIT
+Enter Your Text: exit
+Are You Sure to EXIT? yes
+# Program exits
+🔍 What is ROT13?
+ROT13 ("rotate by 13 places") is a simple letter substitution cipher that replaces a letter with the letter 13 positions after it in the alphabet.
+It's a special case of the Caesar cipher and is its own inverse—applying it twice returns the original text.
+
+For example:
+
+Input	ROT13 Output
+Hello	Uryyb
+Python	Clguba
+Uryyb	Hello
+
+📁 Project Structure
+css
+Copy
+Edit
+📦 rot13-cli/
+ ┣ 📄 rot13.py         ← Main script
+ ┗ 📄 README.md        ← Project documentation
+📌 Exit Conditions
+To exit the program, enter any of the following:
+
+bash
+Copy
+Edit
+q, quit, e, exit
+You'll be asked to confirm before exiting.
+
+📝 License
+This project is licensed under the MIT License.
+Feel free to use, modify, and share.
+
+❤️ Acknowledgments
+Made with love using Python 🐍
+Inspired by curiosity for classic cryptography.
